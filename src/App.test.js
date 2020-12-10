@@ -9,5 +9,6 @@ test("renders App without errors", () => {
 test("renders the app header", () => {
     render(<App />);
 
-    const header = screen.getAllByText(/new animal/i);
+    const header = screen.getAllByText(/add new animal/i);
+    console.log(header);
 })
