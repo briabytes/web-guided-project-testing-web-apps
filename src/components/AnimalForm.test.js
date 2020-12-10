@@ -26,6 +26,5 @@ test("user can fill out and submit the form", () =>  {
     // click the button
     userEvent.click(button);
 
-    // Assert
-    // make sure that the new animal added is now on the page
+    // Assert that the new animal is now on the page
 });
