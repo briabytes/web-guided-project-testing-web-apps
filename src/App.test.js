@@ -20,7 +20,11 @@ test("renders the app header", () => {
     expect(header).toBeTruthy();
     expect(header).toHaveTextContent(/add new animal/i);
 
-    // 
+    // Negative assertions
+    expect(header).not.toBeNull();
+    expect(header).not.toBeUndefined();
+    expect(header).not.toHaveTextContent(/animal list/i);
+
 
 
 })
