@@ -24,7 +24,4 @@ test("renders the app header", () => {
     expect(header).not.toBeNull();
     expect(header).not.toBeUndefined();
     expect(header).not.toHaveTextContent(/animal list/i);
-
-
-
 })
