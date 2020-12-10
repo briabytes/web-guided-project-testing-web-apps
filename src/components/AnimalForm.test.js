@@ -27,4 +27,7 @@ test("user can fill out and submit the form", () =>  {
     userEvent.click(button);
 
     // Assert that the new animal is now on the page
+    const grizzlyBear = screen.getByText(/grizzly bear/i);
+    expect(grizzlyBear).toBeInTheDocument();
+
 });
