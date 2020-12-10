@@ -14,6 +14,9 @@ test("renders the app header", () => {
     const header = screen.getByText(/add new animal/i);
 
     // Assert
+    expect(header).toBeInTheDocument();
+
     expect(header).toHaveTextContent(/add new animal/i);
+
 
 })
