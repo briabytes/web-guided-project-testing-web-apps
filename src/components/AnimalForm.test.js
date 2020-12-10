@@ -6,3 +6,4 @@ import AnimalForm from "./AnimalForm";
 test("renders AnimalForm component without errors", () => {
     render(<AnimalForm/>);
 });
+
