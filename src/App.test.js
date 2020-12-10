@@ -7,8 +7,13 @@ test("renders App without errors", () => {
 })
 
 test("renders the app header", () => {
+    // Arrange
     render(<App />);
 
-    const header = screen.getAllByText(/add new animal/i);
+    // (Act)
+    const header = screen.getByText(/add new animal/i);
     console.log(header);
+
+    // Assert
+
 })
