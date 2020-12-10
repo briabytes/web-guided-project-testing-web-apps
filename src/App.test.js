@@ -9,6 +9,5 @@ test("renders App without errors", () => {
 test("renders the app header", () => {
     render(<App />);
 
-    const get
-
+    const header = screen.getAllByText("ADD NEW ANIMAL");
 })
