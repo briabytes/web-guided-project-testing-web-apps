@@ -7,7 +7,6 @@ function App() {
   return (
     <div className="App">
       <h1>Add New Animal</h1>
-      <p>Hey buddy! Add new animal to the database, friend</p>
       <AnimalForm />
     </div>
   );
