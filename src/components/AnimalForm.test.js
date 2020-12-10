@@ -7,3 +7,11 @@ test("renders AnimalForm component without errors", () => {
     render(<AnimalForm/>);
 });
 
+test("user can fill out and submit the form", () =>  {
+    // Arrange
+    render(<AnimalForm/>);
+
+    // Act
+
+    // Assert
+});
