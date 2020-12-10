@@ -17,4 +17,5 @@ test("user can fill out and submit the form", () =>  {
     // click the button
 
     // Assert
+    // make sure that the new animal added is now on the page
 });
