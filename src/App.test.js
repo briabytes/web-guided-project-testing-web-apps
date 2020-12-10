@@ -11,9 +11,10 @@ test("renders the app header", () => {
     render(<App />);
 
     // (Act)
-    const header = screen.getByText(/add new animal/i);
+    const header = screen.getByText(/new animal/i);
     console.log(header);
 
     // Assert
+    expect(header).toHaveTextContent(/add new animal/i);
 
 })
