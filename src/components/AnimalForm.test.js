@@ -16,6 +16,7 @@ test("user can fill out and submit the form", () =>  {
     const speciesInput = screen.getByLabelText(/species/i);
     const ageInput = screen.getByLabelText(/age/i);
     const notesInput = screen.getByLabelText(/notes/i);
+    const button = screen.getByRole("button", {name: "/submit/i"});
 
     // fill out the form
     userEvent.type(speciesInput, "Grizzly Bear");
@@ -23,6 +24,7 @@ test("user can fill out and submit the form", () =>  {
     userEvent.type(notesInput, "I'm a friendly bear");
 
     // click the button
+
 
 
     // Assert
