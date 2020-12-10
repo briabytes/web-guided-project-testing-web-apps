@@ -16,7 +16,11 @@ test("renders the app header", () => {
     // Assert
     expect(header).toBeInTheDocument();
 
+    // Other possible assertions
+    expect(header).toBeTruthy();
     expect(header).toHaveTextContent(/add new animal/i);
+
+    // 
 
 
 })
