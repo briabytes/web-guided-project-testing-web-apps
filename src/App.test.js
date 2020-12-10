@@ -11,8 +11,7 @@ test("renders the app header", () => {
     render(<App />);
 
     // (Act)
-    const header = screen.getByText(/new animal/i);
-    console.log(header);
+    const header = screen.getByText(/add new animal/i);
 
     // Assert
     expect(header).toHaveTextContent(/add new animal/i);
