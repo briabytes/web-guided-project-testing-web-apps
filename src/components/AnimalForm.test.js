@@ -19,7 +19,8 @@ test("user can fill out and submit the form", () =>  {
 
     // fill out the form
     userEvent.type(speciesInput, "Grizzly Bear");
-    
+    userEvent.type(ageInput, "6");
+    userEvent.type(notesInput, "I'm a friendly bear");
 
     // click the button
 
