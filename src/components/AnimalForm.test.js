@@ -12,6 +12,9 @@ test("user can fill out and submit the form", () =>  {
     render(<AnimalForm/>);
 
     // Act
+    // use RTL matchers to access the form fields
+    // add text to the fields (use labelText and userEvent)
+    // click the button
 
     // Assert
 });
