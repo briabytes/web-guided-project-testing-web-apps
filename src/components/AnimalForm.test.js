@@ -12,14 +12,15 @@ test("user can fill out and submit the form", () =>  {
     render(<AnimalForm/>);
 
     // Act
-    // query for each input field
+    // query for each input field with RTL matchers
     const speciesInput = screen.getByLabelText(/species/i);
     const ageInput = screen.getByLabelText(/age/i);
     const notesInput = screen.getByLabelText(/notes/i);
 
+    // fill out the form
+    userEvent.type(speciesInput, "Grizzly Bear");
+    
 
-    // use RTL matchers to access the form fields
-    // add text to the fields (use labelText and userEvent)
     // click the button
 
 
